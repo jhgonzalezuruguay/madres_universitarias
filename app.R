@@ -4,7 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(plotly)
 
-# Datos simulados a partir del análisis del informe
+# Datos consstruidos a partir del análisis de entrevistas
 datos <- data.frame(
   categoria = c("Frustración académica",
                 "Problemas económicos",
@@ -132,8 +132,8 @@ ui <- dashboardPage(
                     tags$ul(
                       tags$li("La maternidad genera tensiones entre roles académicos y familiares"),
                       tags$li("Existen dificultades económicas y logísticas"),
-                      tags$li("La universidad carece de políticas específicas para esta población"),
-                      tags$li("El apoyo familiar resulta clave para la permanencia educativa")
+                      tags$li("La universidad carece al momento de la investigación de políticas específicas para esta población"),
+                      tags$li("El apoyo familiar y de pares resulta clave para la permanencia educativa")
                     )
                 )
               )
